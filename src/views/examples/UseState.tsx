@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import PageTitle from '../../components/PageTitle';
 import SectionTitle from '../../components/SectionTitle';
 
@@ -47,6 +48,10 @@ const UseState = () => {
         onChange={(e) => setName(e.target.value)}
       />
       <span className="text">{name}</span>
+      <SectionTitle title="Exemplo" />
+      <Link to="/birthday-reminder" className="example-link">
+        {`>>>BirthdayReminder`}
+      </Link>
     </div>
   );
 };

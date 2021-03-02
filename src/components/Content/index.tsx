@@ -13,6 +13,8 @@ import UseContext from '../../views/examples/UseContext';
 import UseReducer from '../../views/examples/UseReducer';
 import UseCustom from '../../views/examples/UseCustom';
 
+import BirthdayReminder from '../BirthdayReminder';
+
 const Content = () => (
   <main className="Content">
     <Switch>
@@ -21,6 +23,9 @@ const Content = () => (
       </Route>
       <Route path="/useState">
         <UseState />
+      </Route>
+      <Route path="/birthday-reminder">
+        <BirthdayReminder />
       </Route>
       <Route path="/useEffect">
         <UseEffect />
