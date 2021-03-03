@@ -14,6 +14,7 @@ import UseReducer from '../../views/examples/UseReducer';
 import UseCustom from '../../views/examples/UseCustom';
 
 import BirthdayReminder from '../BirthdayReminder';
+import Tours from '../Tours';
 
 const Content = () => (
   <main className="Content">
@@ -29,6 +30,9 @@ const Content = () => (
       </Route>
       <Route path="/useEffect">
         <UseEffect />
+      </Route>
+      <Route path="/tours">
+        <Tours />
       </Route>
       <Route path="/useRef">
         <UseRef />

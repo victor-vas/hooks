@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import PageTitle from '../../components/PageTitle';
+import SectionTitle from '../../components/SectionTitle';
 
 function calcFatorial(n: number): number {
   if (n < 0) return -1;
@@ -35,6 +37,10 @@ const UseEffect = () => {
           onChange={(e) => setNumber(Number(e.target.value))}
         />
       </div>
+      <SectionTitle title="Exemplo" />
+      <Link to="/tours" className="example-link">
+        {`>>> Tours`}
+      </Link>
     </div>
   );
 };

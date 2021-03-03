@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './style.css';
-
 interface People {
   id: number;
   name: string;

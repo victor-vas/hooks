@@ -50,7 +50,7 @@ const UseState = () => {
       <span className="text">{name}</span>
       <SectionTitle title="Exemplo" />
       <Link to="/birthday-reminder" className="example-link">
-        {`>>>BirthdayReminder`}
+        {`>>> BirthdayReminder`}
       </Link>
     </div>
   );
