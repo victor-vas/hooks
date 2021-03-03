@@ -35,7 +35,7 @@ export const Wrapper = styled.main`
   ===============
   */
 
-  main {
+  & {
     width: 90vw;
     max-width: 620px;
     margin: 5rem auto;
@@ -59,7 +59,6 @@ export const Wrapper = styled.main`
   }
 
   .single-tour {
-    width: 750px;
     background: #fff;
     border-radius: 0.25rem;
     margin: 2rem auto;

@@ -41,6 +41,9 @@ const UseEffect = () => {
       <Link to="/tours" className="example-link">
         {`>>> Tours`}
       </Link>
+      <Link to="/reviews" className="example-link">
+        {`>>> Reviews`}
+      </Link>
     </div>
   );
 };

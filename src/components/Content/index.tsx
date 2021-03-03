@@ -15,6 +15,7 @@ import UseCustom from '../../views/examples/UseCustom';
 
 import BirthdayReminder from '../BirthdayReminder';
 import Tours from '../Tours';
+import Reviews from '../Reviews';
 
 const Content = () => (
   <main className="Content">
@@ -33,6 +34,9 @@ const Content = () => (
       </Route>
       <Route path="/tours">
         <Tours />
+      </Route>
+      <Route path="/reviews">
+        <Reviews />
       </Route>
       <Route path="/useRef">
         <UseRef />
