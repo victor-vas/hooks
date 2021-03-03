@@ -35,11 +35,9 @@ export const Wrapper = styled.main`
   ===============
   */
 
-  & {
-    width: 90vw;
-    max-width: 620px;
-    margin: 5rem auto;
-  }
+  width: 90vw;
+  max-width: 620px;
+  margin: 5rem auto;
 
   .loading {
     text-align: center;

@@ -17,6 +17,7 @@ import BirthdayReminder from '../BirthdayReminder';
 import Tours from '../Tours';
 import Reviews from '../Reviews';
 import Accordion from '../Accordion';
+import FoodMenu from '../FoodMenu';
 
 const Content = () => (
   <main className="Content">
@@ -41,6 +42,9 @@ const Content = () => (
       </Route>
       <Route path="/accordion">
         <Accordion />
+      </Route>
+      <Route path="/food-menu">
+        <FoodMenu />
       </Route>
       <Route path="/useRef">
         <UseRef />

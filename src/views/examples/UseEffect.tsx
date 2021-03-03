@@ -47,6 +47,9 @@ const UseEffect = () => {
       <Link to="/accordion" className="example-link">
         {`>>> Accordion`}
       </Link>
+      <Link to="/food-menu" className="example-link">
+        {`>>> Food Menu`}
+      </Link>
     </div>
   );
 };
