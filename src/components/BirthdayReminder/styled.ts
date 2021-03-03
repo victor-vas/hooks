@@ -13,11 +13,9 @@ export const Wrapper = styled.main`
     }
   }
 
-  .birthday-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .container {
     width: 90vw;

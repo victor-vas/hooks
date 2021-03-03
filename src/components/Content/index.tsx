@@ -16,6 +16,7 @@ import UseCustom from '../../views/examples/UseCustom';
 import BirthdayReminder from '../BirthdayReminder';
 import Tours from '../Tours';
 import Reviews from '../Reviews';
+import Accordion from '../Accordion';
 
 const Content = () => (
   <main className="Content">
@@ -37,6 +38,9 @@ const Content = () => (
       </Route>
       <Route path="/reviews">
         <Reviews />
+      </Route>
+      <Route path="/accordion">
+        <Accordion />
       </Route>
       <Route path="/useRef">
         <UseRef />

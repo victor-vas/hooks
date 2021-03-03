@@ -7,7 +7,7 @@ function App() {
   const [peoples, setPeoples] = useState(data);
 
   return (
-    <Wrapper className="birthday-main">
+    <Wrapper>
       <section className="container">
         <h3>{peoples.length} birthdays today</h3>
         <List peoples={peoples} />
