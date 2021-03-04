@@ -18,6 +18,7 @@ import Tours from '../Tours';
 import Reviews from '../Reviews';
 import Accordion from '../Accordion';
 import FoodMenu from '../FoodMenu';
+import Tabs from '../Tabs';
 
 const Content = () => (
   <main className="Content">
@@ -45,6 +46,9 @@ const Content = () => (
       </Route>
       <Route path="/food-menu">
         <FoodMenu />
+      </Route>
+      <Route path="/tabs">
+        <Tabs />
       </Route>
       <Route path="/useRef">
         <UseRef />

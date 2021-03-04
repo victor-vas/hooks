@@ -50,6 +50,9 @@ const UseEffect = () => {
       <Link to="/food-menu" className="example-link">
         {`>>> Food Menu`}
       </Link>
+      <Link to="/tabs" className="example-link">
+        {`>>> Tabs`}
+      </Link>
     </div>
   );
 };
