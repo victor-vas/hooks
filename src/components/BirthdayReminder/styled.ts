@@ -44,15 +44,103 @@ export const Wrapper = styled.main`
   --max-width: 1170px;
   --fixed-width: 450px;
   --clr-pink: #f28ab2;
+  /*
+  ===============
+  Global Styles
+  ===============
+  */
 
+  *,
+  ::after,
+  ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--clr-pink);
+    color: var(--clr-grey-9);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 0.875rem;
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+    color: var(--clr-grey-5);
+  }
+
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    h3 {
+      font-size: 1.75rem;
+    }
+
+    h4 {
+      font-size: 1rem;
+    }
+
+    body {
+      font-size: 1rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+  }
   /*  global classes */
 
   /* section */
-
   .section {
     width: 90vw;
     margin: 0 auto;
-    max-width: 1170px;
+    max-width: var(--max-width);
   }
 
   @media screen and (min-width: 992px) {
@@ -68,11 +156,11 @@ export const Wrapper = styled.main`
   .container {
     width: 90vw;
     margin: 5rem 0;
-    max-width: 450px;
-    background: #fff;
-    border-radius: 0.25rem;
+    max-width: var(--fixed-width);
+    background: var(--clr-white);
+    border-radius: var(--radius);
     padding: 1.5rem 2rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: var(--dark-shadow);
   }
 
   .container h3 {
@@ -94,7 +182,7 @@ export const Wrapper = styled.main`
     height: 75px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--light-shadow);
   }
 
   .person h4 {
@@ -106,17 +194,17 @@ export const Wrapper = styled.main`
   }
 
   .container button {
-    color: #fff;
+    color: var(--clr-white);
     display: block;
     width: 100%;
     border-color: transparent;
-    background: #f28ab2;
+    background: var(--clr-pink);
     margin: 2rem auto 0 auto;
     text-transform: capitalize;
     font-size: 1.2rem;
     padding: 0.5rem 0;
-    letter-spacing: 0.1rem;
-    border-radius: 0.25rem;
+    letter-spacing: var(--spacing);
+    border-radius: var(--radius);
     outline: 1px solid rgba(242, 138, 178, 0.8);
     cursor: pointer;
   }

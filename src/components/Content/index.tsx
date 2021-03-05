@@ -19,6 +19,7 @@ import Reviews from '../Reviews';
 import Accordion from '../Accordion';
 import FoodMenu from '../FoodMenu';
 import Tabs from '../Tabs';
+import Slider from '../Slider';
 
 const Content = () => (
   <main className="Content">
@@ -49,6 +50,9 @@ const Content = () => (
       </Route>
       <Route path="/tabs">
         <Tabs />
+      </Route>
+      <Route path="/slider">
+        <Slider />
       </Route>
       <Route path="/useRef">
         <UseRef />
