@@ -20,6 +20,7 @@ import Accordion from '../Accordion';
 import FoodMenu from '../FoodMenu';
 import Tabs from '../Tabs';
 import Slider from '../Slider';
+import LoremIpsum from '../LoremIpsum';
 
 const Content = () => (
   <main className="Content">
@@ -32,6 +33,9 @@ const Content = () => (
       </Route>
       <Route path="/birthday-reminder">
         <BirthdayReminder />
+      </Route>
+      <Route path="/lorem-ipsum">
+        <LoremIpsum />
       </Route>
       <Route path="/useEffect">
         <UseEffect />

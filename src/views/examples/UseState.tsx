@@ -52,6 +52,9 @@ const UseState = () => {
       <Link to="/birthday-reminder" className="example-link">
         {`>>> BirthdayReminder`}
       </Link>
+      <Link to="/lorem-ipsum" className="example-link">
+        {`>>> Lorem Ipsum`}
+      </Link>
     </div>
   );
 };
