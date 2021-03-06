@@ -21,6 +21,7 @@ import FoodMenu from '../FoodMenu';
 import Tabs from '../Tabs';
 import Slider from '../Slider';
 import LoremIpsum from '../LoremIpsum';
+import ColorGenerator from '../ColorGenerator';
 
 const Content = () => (
   <main className="Content">
@@ -36,6 +37,9 @@ const Content = () => (
       </Route>
       <Route path="/lorem-ipsum">
         <LoremIpsum />
+      </Route>
+      <Route path="/color-generator">
+        <ColorGenerator />
       </Route>
       <Route path="/useEffect">
         <UseEffect />
