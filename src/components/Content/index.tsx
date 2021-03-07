@@ -22,6 +22,7 @@ import Tabs from '../Tabs';
 import Slider from '../Slider';
 import LoremIpsum from '../LoremIpsum';
 import ColorGenerator from '../ColorGenerator';
+import GroceryBud from '../GroceryBud';
 
 const Content = () => (
   <main className="Content">
@@ -61,6 +62,9 @@ const Content = () => (
       </Route>
       <Route path="/slider">
         <Slider />
+      </Route>
+      <Route path="/grocery-bud">
+        <GroceryBud />
       </Route>
       <Route path="/useRef">
         <UseRef />

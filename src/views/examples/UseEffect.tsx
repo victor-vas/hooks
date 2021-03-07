@@ -59,6 +59,9 @@ const UseEffect = () => {
       <Link to="/color-generator" className="example-link">
         {`>>> Color Generator`}
       </Link>
+      <Link to="/grocery-bud" className="example-link">
+        {`>>> Grocery Bud`}
+      </Link>
     </div>
   );
 };
