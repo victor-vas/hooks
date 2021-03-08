@@ -9,11 +9,13 @@ const UseMemo = () => {
 
   // const [result, setResult] = useState(0);
 
-  const sum = (number1: number, number2: number): number => {
+  const sum = (number1: number, number2: number) => {
     const future = Date.now() + 2000;
+
     while (Date.now() < future) {
       //
     }
+
     return number1 + number2;
   };
 

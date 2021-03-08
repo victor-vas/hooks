@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import PageTitle from '../../components/PageTitle';
 import SectionTitle from '../../components/SectionTitle';
 
@@ -55,6 +56,10 @@ const UseRef = () => {
           ref={myInput2}
         />
       </div>
+      <SectionTitle title="Exemplo" />
+      <Link to="/navbar" className="example-link">
+        {`>>> Navbar`}
+      </Link>
     </div>
   );
 };

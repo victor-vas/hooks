@@ -23,6 +23,7 @@ import Slider from '../Slider';
 import LoremIpsum from '../LoremIpsum';
 import ColorGenerator from '../ColorGenerator';
 import GroceryBud from '../GroceryBud';
+import Navbar from '../Navbar';
 
 const Content = () => (
   <main className="Content">
@@ -68,6 +69,9 @@ const Content = () => (
       </Route>
       <Route path="/useRef">
         <UseRef />
+      </Route>
+      <Route path="/navbar">
+        <Navbar />
       </Route>
       <Route path="/useCallback">
         <UseCallback />

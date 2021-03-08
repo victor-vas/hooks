@@ -9,4 +9,9 @@
   color: black;
   text-decoration: none;
   margin-top: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.example-link:hover {
+  color: #0092c3;
 }
