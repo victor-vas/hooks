@@ -24,6 +24,7 @@ import LoremIpsum from '../LoremIpsum';
 import ColorGenerator from '../ColorGenerator';
 import GroceryBud from '../GroceryBud';
 import Navbar from '../Navbar';
+import SidebarModal from '../SidebarModal';
 
 const Content = () => (
   <main className="Content">
@@ -81,6 +82,9 @@ const Content = () => (
       </Route>
       <Route path="/useContext">
         <UseContext />
+      </Route>
+      <Route path="/sidebar-modal">
+        <SidebarModal />
       </Route>
       <Route path="/useReducer">
         <UseReducer />

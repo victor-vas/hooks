@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import PageTitle from '../../components/PageTitle';
 import SectionTitle from '../../components/SectionTitle';
 import { DataContext } from '../../data/DataContext';
@@ -51,6 +52,10 @@ const UseContext = () => {
           </button>
         </div>
       </div>
+      <SectionTitle title="Exemplo" />
+      <Link to="/sidebar-modal" className="example-link">
+        {`>>> Sidebar / Modal`}
+      </Link>
     </div>
   );
 };
