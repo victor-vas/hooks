@@ -56,6 +56,9 @@ const UseContext = () => {
       <Link to="/sidebar-modal" className="example-link">
         {`>>> Sidebar / Modal`}
       </Link>
+      <Link to="/submenu" className="example-link">
+        {`>>> Submenu`}
+      </Link>
     </div>
   );
 };
