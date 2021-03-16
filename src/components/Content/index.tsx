@@ -26,6 +26,7 @@ import GroceryBud from '../GroceryBud';
 import Navbar from '../Navbar';
 import SidebarModal from '../SidebarModal';
 import Submenu from '../Submenu';
+import Cart from '../Cart';
 
 const Content = () => (
   <main className="Content">
@@ -92,6 +93,9 @@ const Content = () => (
       </Route>
       <Route path="/useReducer">
         <UseReducer />
+      </Route>
+      <Route path="/cart">
+        <Cart />
       </Route>
       <Route path="/useCustom">
         <UseCustom />

@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   const handleSubmenu = (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
-    if (!e.currentTarget.classList.contains('link-btn')) {
+    if (e.currentTarget.classList.contains('link-btn')) {
       closeSubmenu();
     }
   };

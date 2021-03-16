@@ -1,5 +1,7 @@
 import React, { useReducer, useState } from 'react';
+import { Link } from 'react-router-dom';
 import PageTitle from '../../components/PageTitle';
+import SectionTitle from '../../components/SectionTitle';
 
 const initialState = {
   number: 0,
@@ -57,6 +59,10 @@ const UseReducer = () => {
           </button>
         </div>
       </div>
+      <SectionTitle title="Exemplo" />
+      <Link to="/cart" className="example-link">
+        {`>>> Cart`}
+      </Link>
     </div>
   );
 };

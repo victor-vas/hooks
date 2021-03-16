@@ -28,7 +28,7 @@ const Submenu = () => {
 
   return (
     <aside
-      className={`${isSubmenuOpen ? 'submenu show' : 'submenu'}`}
+      className={isSubmenuOpen ? 'submenu show' : 'submenu'}
       ref={container}
     >
       <section>
