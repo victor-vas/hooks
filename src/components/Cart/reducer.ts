@@ -23,6 +23,7 @@ const reducer = (
       }
       return cartItem;
     });
+
     return { ...state, cart: tempCart };
   }
 
@@ -35,6 +36,7 @@ const reducer = (
         return cartItem;
       })
       .filter((cartItem) => cartItem.amount !== 0);
+
     return { ...state, cart: tempCart };
   }
 
@@ -81,6 +83,7 @@ const reducer = (
         return cartItem;
       })
       .filter((cartItem) => cartItem.amount !== 0);
+
     return { ...state, cart: tempCart };
   }
   throw new Error('no matching action type');

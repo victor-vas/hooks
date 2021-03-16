@@ -199,6 +199,11 @@ export const Wrapper = styled.main`
     display: none;
   }
 
+  .hero-bg {
+    width: 100%;
+    position: absolute;
+  }
+
   .hero::before {
     content: '';
     position: absolute;
@@ -214,7 +219,7 @@ export const Wrapper = styled.main`
 
   .hero {
     position: relative;
-    min-height: 100vh;
+    min-height: 92vh;
     margin-top: -5rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -228,17 +233,24 @@ export const Wrapper = styled.main`
     align-items: center;
   }
 
+  .hero-info {
+    z-index: 10; // alteração
+  }
+
   .hero-info h1 {
     text-transform: none;
     max-width: 500px;
     margin-bottom: 2rem;
   }
+
   .hero-info p {
     max-width: 35em;
     line-height: 1.8;
   }
+
   .hero-images {
     display: none;
+    z-index: 10; // alteração
   }
 
   /* nav media query */
@@ -354,7 +366,7 @@ export const Wrapper = styled.main`
     display: grid;
     place-items: center;
     visibility: hidden;
-    z-index: -1;
+    z-index: 100;
     transition: var(--transition);
     transform: scale(0);
     background: rgba(0, 0, 0, 0.5);

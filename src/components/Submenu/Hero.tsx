@@ -1,5 +1,6 @@
 import React from 'react';
 import phoneImg from './images/phone.svg';
+import heroImg from './images/hero.svg';
 import { IAppProvider, useGlobalContext } from './context';
 
 const Hero = () => {
@@ -7,6 +8,7 @@ const Hero = () => {
 
   return (
     <section className="hero" onMouseOver={closeSubmenu}>
+      <img src={heroImg} alt="background stripe" className="hero-bg" />
       <div className="hero-center">
         <article className="hero-info">
           <h1>

@@ -11,6 +11,7 @@ const Sidebar = () => {
       className={`${
         isSidebarOpen ? 'sidebar-wrapper show' : 'sidebar-wrapper'
       }`}
+      style={{ zIndex: 100 }}
     >
       <aside className="sidebar">
         <button className="close-btn" onClick={closeSidebar}>

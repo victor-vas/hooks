@@ -30,6 +30,7 @@ const Submenu = () => {
     <aside
       className={isSubmenuOpen ? 'submenu show' : 'submenu'}
       ref={container}
+      style={{ zIndex: 100 }}
     >
       <section>
         <h4>{page}</h4>

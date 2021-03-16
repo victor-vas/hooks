@@ -7,23 +7,21 @@ export const Wrapper = styled.main`
   ===============
   */
 
-  :root {
-    --clr-primary: #2680c0;
-    --clr-primary-dark: hsl(205, 100%, 21%);
-    --clr-primary-light: hsl(205, 84%, 74%);
-    --clr-grey-1: #102a42;
-    --clr-grey-5: #617d98;
-    --clr-grey-10: #f1f5f8;
-    --clr-white: #fff;
-    --clr-red-dark: hsl(360, 67%, 44%);
-    --clr-red-light: hsl(360, 71%, 66%);
-    --transition: all 0.3s linear;
-    --spacing: 0.25rem;
-    --radius: 0.25rem;
-    --large-screen-width: 1170px;
-    --small-screen-width: 90vw;
-    --fixed-width: 50rem;
-  }
+  --clr-primary: #2680c0;
+  --clr-primary-dark: hsl(205, 100%, 21%);
+  --clr-primary-light: hsl(205, 84%, 74%);
+  --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.25rem;
+  --large-screen-width: 1170px;
+  --small-screen-width: 90vw;
+  --fixed-width: 50rem;
 
   * {
     margin: 0;
@@ -110,7 +108,7 @@ export const Wrapper = styled.main`
 
   /* more global css */
 
-  .btn {
+  .btn-cart {
     text-transform: uppercase;
     background: var(--clr-primary);
     color: var(--clr-white);
@@ -125,7 +123,7 @@ export const Wrapper = styled.main`
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   }
 
-  .btn:hover {
+  .btn-cart:hover {
     color: var(--clr-primary);
     background: var(--clr-primary-light);
   }
