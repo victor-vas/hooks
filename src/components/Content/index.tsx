@@ -27,6 +27,7 @@ import Navbar from '../Navbar';
 import SidebarModal from '../SidebarModal';
 import Submenu from '../Submenu';
 import Cart from '../Cart';
+import Cocktail from '../Cocktail';
 
 const Content = () => (
   <main className="Content">
@@ -90,6 +91,9 @@ const Content = () => (
       </Route>
       <Route path="/submenu">
         <Submenu />
+      </Route>
+      <Route path="/cocktail">
+        <Cocktail />
       </Route>
       <Route path="/useReducer">
         <UseReducer />

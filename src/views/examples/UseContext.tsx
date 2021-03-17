@@ -59,6 +59,9 @@ const UseContext = () => {
       <Link to="/submenu" className="example-link">
         {`>>> Submenu`}
       </Link>
+      <Link to="/cocktail" className="example-link">
+        {`>>> Cocktail`}
+      </Link>
     </div>
   );
 };
